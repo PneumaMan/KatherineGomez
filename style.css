@@ -83,7 +83,7 @@
     border-radius: 23px;
     padding: 10px;
     width:  15rem;
-    margin-top: 2%;
+    
 }
 .dos-uno{
     float: left;
@@ -128,7 +128,7 @@
 .cuatro{
     background-image:url(img/Brillante-suave.png) ;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
 .t-cuatro{
     margin-top: 10% !important;
@@ -175,7 +175,7 @@
 }
 
 .cuatro-uno{
-    padding: 80px 92px 20px;
+    padding: 100px 92px 20px;
     margin-left: auto;
     margin-left: auto;
     font-size: 1.5rem;

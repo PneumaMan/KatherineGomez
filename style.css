@@ -42,6 +42,9 @@
 .txt {
     padding: 70px 80px 70px 10px;
 }
+.img-tres-div .logo {
+    object-fit: cover;
+}
 
 .logo {
     width: 100%;
@@ -52,8 +55,6 @@
     width: 50%;
     margin: 2px 1em 0 auto;
     padding: 20px 50px 20px;
-
-
 }
 
 .dos {
@@ -655,5 +656,11 @@
     font-weight: 600 !important;
 }
    }
+
+
+.mapa{
+    height: 50vh;
+    width: 100%;
+}
 
 

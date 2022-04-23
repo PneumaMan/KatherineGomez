@@ -581,7 +581,7 @@
 @media (min-width: 1100px) {
     .txt{
         font-size: 1.5rem;
-        padding: 20px 20px 20px 10px;
+        padding: 20px 65px 20px 10px;
     }
    
     .titulo {
@@ -596,7 +596,7 @@
    }
    
    .tres-parrafos {
-       padding: 0px 80px 0px 80px;
+       padding: 0px 90px 0px 80px;
    }
    
    .img-tres-div {
@@ -655,12 +655,20 @@
     border: #3E7D99 !important;
     font-weight: 600 !important;
 }
+
+.t{
+
+}
    }
 
 
 .mapa{
     height: 50vh;
     width: 100%;
+}
+
+.u{
+
 }
 
 

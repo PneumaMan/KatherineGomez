@@ -152,7 +152,8 @@
 .cuatro {
     background-image: url(img/Brillante-suave.png);
     width: 100%;
-    height: 70vh;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .t-cuatro {
@@ -162,7 +163,7 @@
 
 .cinco {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     background-color: #3E7D99;
 }
 
@@ -269,6 +270,10 @@
 
 
 @media (max-width: 700px) {
+    iframe{
+        width: 200px;
+        height: 200px;
+    }
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -383,18 +388,22 @@
         width: 100%;
         padding: 80px 80px 20px;
         font-size: 20px;
+        height: 50vh;
     }
 
     .cinco-dos {
         width: 100%;
         padding: 80px 60px 20px;
+        height: 80vh;
+        background-color: #3E7D99  !important;
+        
 
     }
 
     .cinco {
         width: 100%;
-        height: 100vh;
-        background-color: #3E7D99;
+        
+        background-color: #3E7D99  !important;
     }
 
     .t-cuatro {
@@ -536,7 +545,7 @@
  .titulo {
     color: #5F4D41;
     font-family: Sublima-ExtraBold;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -587,12 +596,16 @@
     .titulo {
        color: #5F4D41;
        font-family: Sublima-ExtraBold;
-       font-size: 20px;
+       font-size: 1.8rem;
    
    }
+   .titulo-tres {
+    color: #3E7D99;
+    font-size: 1.8rem;
+}
    
    .color-letra {
-       font-size: 1.5rem !important;
+       font-size: 1.2rem !important;
    }
    
    .tres-parrafos {
@@ -656,9 +669,6 @@
     font-weight: 600 !important;
 }
 
-.t{
-
-}
    }
 
 

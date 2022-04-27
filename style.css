@@ -23,7 +23,7 @@
 
 .uno {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-image: url(img/Brillante-suave.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -32,11 +32,8 @@
 .uno-uno {
     width: 50%;
     float: left;
-    margin: 2px 1em 0 auto;
-    padding: 100px 10px 20px 130px;
-    margin-top: 10%;
-
-
+    margin: 2px 0 0 auto;
+    padding: 180px 10px 20px 130px;
 }
 
 .txt {
@@ -47,8 +44,9 @@
 }
 
 .logo {
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    margin: 8rem;
+    
 }
 
 .uno-dos {
@@ -139,7 +137,7 @@
 
 .tres-parrafos {
     padding: 10px 130px 30px 130px;
-    height: 300px;
+    height: 350px;
 
 }
 
@@ -163,7 +161,7 @@
 
 .cinco {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-color: #3E7D99;
 }
 
@@ -207,7 +205,7 @@
 }
 
 .cuatro-uno {
-    padding: 100px 92px 20px;
+    padding: 12% 92px 20px;
     margin-left: auto;
     margin-left: auto;
     font-size: 1.5rem;
@@ -245,6 +243,7 @@
     .logo {
         width: 300px !important;
         height: 300px !important;
+        margin: 0 !important;
     }
 
     .txt {
@@ -309,8 +308,9 @@
     }
 
     .logo {
-        width: 350px;
-        height: 350px;
+        width: 250px !important;
+        height: 250px !important;
+        margin: 1rem !important;
     }
 
     .dos {
@@ -588,9 +588,11 @@
 }
 
 @media (min-width: 1100px) {
+
     .txt{
         font-size: 1.5rem;
         padding: 20px 65px 20px 10px;
+        margin: 2rem 2rem 0;
     }
    
     .titulo {

@@ -222,6 +222,7 @@
 .img-dos {
     width: 90%;
     height: 90vh;
+    object-fit: cover;
 
 }
 

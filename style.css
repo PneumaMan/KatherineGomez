@@ -13,20 +13,31 @@
     padding: 0;
 }
 
-.bi-play{
+.bi-play-circle{
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 150px !important;
+}
+
+.label-boton{
+    font-family: Sublima-ExtraBold;
+    font-size: 1rem;
 }
 
 .flotante{
-    width: 50px;
+    width: 250px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 15px;
     border: none;
-    background-color:#3e7e9979;
+    background-color:#166b8fed;
     position: fixed;
     bottom: 40px;
     right: 40px;
+    padding-bottom:px;
+    text-align: center;
+    font-family: Sublima-ExtraBold;
+    color: white;
+    font-size: 15px;
 }
 
 .row {

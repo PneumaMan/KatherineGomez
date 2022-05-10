@@ -389,13 +389,13 @@
         width: 100%;
         padding: 80px 80px 20px;
         font-size: 20px;
-        height: 50vh;
+        height: 60vh;
     }
 
     .cinco-dos {
         width: 100%;
         padding: 80px 60px 20px;
-        height: 60vh;
+        height: 30vh;
         background-color: #3E7D99  !important;
         
 
@@ -403,7 +403,6 @@
 
     .cinco {
         width: 100%;
-        
         background-color: #3E7D99  !important;
     }
 

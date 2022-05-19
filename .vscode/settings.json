@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5501
+    "appService.defaultWebAppToDeploy": "/subscriptions/62176139-7e3b-4678-a0d7-7951b5327188/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Web/sites/web-katherine",
+    "appService.deploySubpath": "."
 }

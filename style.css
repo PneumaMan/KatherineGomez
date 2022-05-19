@@ -263,7 +263,7 @@
 .img-dos {
     width: 90%;
     height: 90vh;
-    object-fit: cover;
+    /* object-fit: cover; */
 
 }
 
@@ -316,7 +316,7 @@
     #youtube{
         width:300px ;
         height:215px;
-        margin: 2em 35px;
+        margin: 2em  35px 2em  35px;
     }
     iframe{
         width: 200px;
@@ -637,17 +637,17 @@
 
 @media (min-width: 1100px) {
     #youtube{
-        width:600px ;
+        width:530px ;
         height:415px;
-        margin: 4.5em 0;
+        margin: 2rem 0 2rem 2rem;
+        padding: 20px 0 20px 65px;
     }
-
-
 
     .txt{
         font-size: 1.5rem;
         padding: 20px 65px 20px 10px;
         margin: 2rem 2rem 0;
+        text-align: justify
     }
    
     .titulo {
@@ -701,6 +701,7 @@
     width: 50%;
     height: 100%;
     position: relative;
+    padding: 2rem;
     
 }
 .dos-uno:hover .card-content{

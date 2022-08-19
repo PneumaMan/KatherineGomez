@@ -23,9 +23,9 @@
     color: var(--color1);
 }
 
-.background-texto{
+/* .background-texto{
     background-color: rgba(233, 200, 200, 0.729);
-}
+} */
 
 #inicio{
     /* background-image: url('img/fondo.jpg');
@@ -98,7 +98,7 @@
     text-align: center ;
     background-color:var(--color1);
     width: 90%;
-    height: 13rem;
+    height: 23rem;
     padding: 2rem;
 }
 

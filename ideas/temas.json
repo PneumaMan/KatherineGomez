@@ -1,0 +1,56 @@
+{
+  "_ayuda": "Edita este archivo para cambiar los temas que se investigan. 'semillas' son frases cortas que la gente escribiría en Google. 'excluir' quita sugerencias que no tienen que ver (películas, juegos...). 'local' marca búsquedas de la zona. Después ejecuta: python3 tools/ideas.py",
+
+  "semillas": [
+    "duelo",
+    "cómo superar el duelo",
+    "duelo por",
+    "etapas del duelo",
+    "pérdida de un ser querido",
+    "muerte de mi",
+    "cómo ayudar a alguien en duelo",
+    "duelo en niños",
+    "duelo por mascota",
+    "duelo migratorio",
+    "duelo por desaparición",
+    "terapia de duelo",
+    "terapia breve estratégica",
+    "psicólogo en manizales",
+    "tristeza después de"
+  ],
+
+  "preguntas": ["qué es", "cómo", "por qué", "cuánto dura", "es normal", "qué hacer"],
+
+  "excluir": [
+    "película", "pelicula", "serie", "capítulo", "capitulo", "netflix", "anime", "juego", "yugioh", "yu-gi-oh",
+    "letra", "canción", "cancion", "acordes", "karaoke", "pistola", "a muerte", "western", "esgrima", "free fire",
+    "fortnite", "minecraft", "roblox", "pokemon", "duelo de titanes", "duelo de bandas", "rap", "freestyle",
+    "jugar", "cardia", "clash", "mazo", "empleo", "vacante", "trabajo psicolog", "trabajos psicolog", "vocalista"
+  ],
+
+  "local": ["manizales", "caldas", "colombia", "bogotá", "bogota", "medellín", "medellin", "pereira", "armenia", "cali", "eje cafetero"],
+
+  "relacionadas": ["duelo", "muerte", "murió", "fallec", "pérdida", "perdida", "luto", "velorio", "funeral", "cementerio", "víctima", "victima", "desaparec", "tristeza", "salud mental", "psicolog", "terapia", "ser querido", "ansiedad", "depresi", "consuelo", "condolencia", "pésame"],
+
+  "wikipedia": {
+    "Duelo (psicología)": "Duelo_(psicología)",
+    "Tanatología": "Tanatología",
+    "Cuidados paliativos": "Cuidados_paliativos",
+    "Resiliencia": "Resiliencia_(psicología)",
+    "Depresión": "Depresión"
+  },
+
+  "fechas": [
+    {"mes": 1, "fecha": "Enero", "tema": "Primer año nuevo sin un ser querido; propósitos y duelo"},
+    {"mes": 2, "fecha": "14 de febrero", "tema": "San Valentín en duelo por la pareja; duelos amorosos"},
+    {"mes": 4, "fecha": "9 de abril", "tema": "Día Nacional de la Memoria y Solidaridad con las Víctimas del conflicto armado"},
+    {"mes": 4, "fecha": "Semana Santa", "tema": "Reuniones familiares y la silla vacía"},
+    {"mes": 5, "fecha": "Último domingo de mayo", "tema": "Día de la Madre en Colombia: cuando mamá ya no está, o cuando se perdió un hijo"},
+    {"mes": 6, "fecha": "Tercer domingo de junio", "tema": "Día del Padre: duelo por el padre"},
+    {"mes": 8, "fecha": "30 de agosto", "tema": "Día Internacional de las Víctimas de Desapariciones Forzadas"},
+    {"mes": 9, "fecha": "10 de septiembre", "tema": "Día Mundial para la Prevención del Suicidio: duelo de sobrevivientes"},
+    {"mes": 10, "fecha": "15 de octubre", "tema": "Día de la conciencia sobre la muerte gestacional y perinatal"},
+    {"mes": 11, "fecha": "2 de noviembre", "tema": "Día de los Fieles Difuntos: rituales y recuerdo"},
+    {"mes": 12, "fecha": "Diciembre", "tema": "Navidad y fin de año en duelo; la novena con un lugar vacío"}
+  ]
+}
